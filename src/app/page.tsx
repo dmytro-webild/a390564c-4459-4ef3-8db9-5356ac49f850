@@ -66,7 +66,7 @@ export default function LandingPage() {
           handle: "@ahmet_y",
           testimonial: "UK Realty ile yatırım yapmak harika bir deneyimdi. Profesyoneller.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg?_wi=1",
           imageAlt: "istanbul bosphorus sunset aerial view",
         },
         {
@@ -74,7 +74,7 @@ export default function LandingPage() {
           handle: "@ayse_k",
           testimonial: "Hızlı satış ve şeffaf süreç. Kesinlikle öneririm.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg?_wi=1",
           imageAlt: "istanbul bosphorus sunset aerial view",
         },
         {
@@ -82,7 +82,7 @@ export default function LandingPage() {
           handle: "@mehmet_d",
           testimonial: "Kazan Kazan sistemi ile ek gelir elde etmek çok kolay oldu.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg?_wi=1",
           imageAlt: "istanbul bosphorus sunset aerial view",
         },
         {
@@ -90,7 +90,7 @@ export default function LandingPage() {
           handle: "@selin_b",
           testimonial: "Lüks konut arayışımda doğru adres. Çok teşekkürler.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg?_wi=1",
           imageAlt: "istanbul bosphorus sunset aerial view",
         },
         {
@@ -98,7 +98,7 @@ export default function LandingPage() {
           handle: "@can_t",
           testimonial: "Sektördeki en dinamik ve genç ekip. Vizyonları çok geniş.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg?_wi=1",
           imageAlt: "istanbul bosphorus sunset aerial view",
         },
       ]}
@@ -112,7 +112,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg?_wi=2"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/closeup-portrait-confident-business-leader_1262-4808.jpg",
@@ -172,19 +172,19 @@ export default function LandingPage() {
           id: "p1",
           name: "Boğaz Manzaralı Villa",
           price: "15.000.000$+",
-          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg?_wi=2",
         },
         {
           id: "p2",
           name: "Levent Lüks Rezidans",
           price: "5.500.000$+",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg?_wi=2",
         },
         {
           id: "p3",
           name: "Nişantaşı Penthouse",
           price: "8.200.000$+",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg?_wi=2",
         },
         {
           id: "p4",
@@ -245,7 +245,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/decorated-interior-christmas-beautiful-christmas-tree-near-modern-expensive-couch-big-clock-with-roman-numbers_132075-6150.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg?_wi=3",
           imageAlt: "financial investment growth data",
         },
         {
@@ -260,7 +260,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/invest-investment-financial-income-profit-costs-concept_53876-134068.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg?_wi=3",
           imageAlt: "financial investment growth data",
         },
         {
@@ -275,7 +275,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/overhead-view-human-hand-putting-signature-official-paper-office_23-2148182971.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg?_wi=3",
           imageAlt: "financial investment growth data",
         },
       ]}
@@ -329,7 +329,7 @@ export default function LandingPage() {
           role: "Yatırımcı",
           company: "UK Realty Partner",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg?_wi=2",
         },
         {
           id: "t2",
