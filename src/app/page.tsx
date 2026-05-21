@@ -141,6 +141,7 @@ export default function LandingPage() {
       title="Bizimle Bağlantı Kurun"
       description="Gayrimenkul hedeflerinize ulaşmanıza yardımcı olalım. Profesyonel ekibimize ulaşmak için aşağıdaki formu doldurabilir veya sosyal medya üzerinden bize mesaj atabilirsiniz."
       useInvertedBackground={true}
+      background={{ variant: "gradient-bars" }}
       imageSrc="http://img.b2bpic.net/free-photo/beautiful-cityscape-with-silhouettes-street-lamp-buildings-sunset_181624-43829.jpg"
     />
   </div>
