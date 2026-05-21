@@ -47,14 +47,14 @@ export default function LandingPage() {
       title="İstanbul’da Gayrimenkulün Yeni Nesli"
       description="Satılık, kiralık ve yatırım fırsatları için profesyonel çözüm ortağınız."
       testimonials={[
-        { name: "Ahmet Y.", handle: "@ahmet_y", testimonial: "UK Realty ile yatırım yapmak harika bir deneyimdi. Profesyoneller.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg", imageAlt: "istanbul bosphorus sunset aerial view" },
-        { name: "Ayşe K.", handle: "@ayse_k", testimonial: "Hızlı satış ve şeffaf süreç. Kesinlikle öneririm.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg", imageAlt: "istanbul bosphorus sunset aerial view" },
-        { name: "Mehmet D.", handle: "@mehmet_d", testimonial: "Kazan Kazan sistemi ile ek gelir elde etmek çok kolay oldu.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg", imageAlt: "istanbul bosphorus sunset aerial view" },
-        { name: "Selin B.", handle: "@selin_b", testimonial: "Lüks konut arayışımda doğru adres. Çok teşekkürler.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg", imageAlt: "istanbul bosphorus sunset aerial view" },
-        { name: "Can T.", handle: "@can_t", testimonial: "Sektördeki en dinamik ve genç ekip. Vizyonları çok geniş.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg", imageAlt: "istanbul bosphorus sunset aerial view" }
+        { name: "Ahmet Y.", handle: "@ahmet_y", testimonial: "UK Realty ile yatırım yapmak harika bir deneyimdi. Profesyoneller.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg?_wi=1", imageAlt: "istanbul bosphorus sunset aerial view" },
+        { name: "Ayşe K.", handle: "@ayse_k", testimonial: "Hızlı satış ve şeffaf süreç. Kesinlikle öneririm.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg?_wi=1", imageAlt: "istanbul bosphorus sunset aerial view" },
+        { name: "Mehmet D.", handle: "@mehmet_d", testimonial: "Kazan Kazan sistemi ile ek gelir elde etmek çok kolay oldu.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg?_wi=1", imageAlt: "istanbul bosphorus sunset aerial view" },
+        { name: "Selin B.", handle: "@selin_b", testimonial: "Lüks konut arayışımda doğru adres. Çok teşekkürler.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg?_wi=1", imageAlt: "istanbul bosphorus sunset aerial view" },
+        { name: "Can T.", handle: "@can_t", testimonial: "Sektördeki en dinamik ve genç ekip. Vizyonları çok geniş.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg?_wi=1", imageAlt: "istanbul bosphorus sunset aerial view" }
       ]}
       buttons={[{ text: "Portföy İncele", href: "#portfolio" }, { text: "Bize Ulaş", href: "#contact" }]}
-      imageSrc="http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/night-coastal-city_23-2148139074.jpg?_wi=2"
     />
   </div>
 
@@ -65,9 +65,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Boğaz Manzaralı Villa", price: "15.000.000$+", imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg" },
-        { id: "p2", name: "Levent Lüks Rezidans", price: "5.500.000$+", imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg" },
-        { id: "p3", name: "Nişantaşı Penthouse", price: "8.200.000$+", imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg" },
+        { id: "p1", name: "Boğaz Manzaralı Villa", price: "15.000.000$+", imageSrc: "http://img.b2bpic.net/free-photo/photorealistic-wooden-house-interior-with-timber-decor-furnishings_23-2151263535.jpg?_wi=2" },
+        { id: "p2", name: "Levent Lüks Rezidans", price: "5.500.000$+", imageSrc: "http://img.b2bpic.net/free-photo/top-view-office-desk-with-growth-chart-laptop_23-2148780610.jpg?_wi=2" },
+        { id: "p3", name: "Nişantaşı Penthouse", price: "8.200.000$+", imageSrc: "http://img.b2bpic.net/free-photo/top-view-realtor-working-desk_23-2147764221.jpg?_wi=2" },
         { id: "p4", name: "Bebek Sahil Daire", price: "4.500.000$+", imageSrc: "http://img.b2bpic.net/free-photo/ai-generated-house-design_23-2150666333.jpg" },
         { id: "p5", name: "Zekeriyaköy Müstakil", price: "3.800.000$+", imageSrc: "http://img.b2bpic.net/free-photo/interior-designer-clients-discussing-drawings_74855-2943.jpg" },
         { id: "p6", name: "Maslak Yatırım Ofis", price: "2.900.000$+", imageSrc: "http://img.b2bpic.net/free-photo/still-life-world-intellectual-property-day_23-2151325859.jpg" }
@@ -124,7 +124,7 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
       testimonials={[
-        { id: "t1", name: "Ebru S.", role: "Yatırımcı", company: "UK Realty Partner", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg" },
+        { id: "t1", name: "Ebru S.", role: "Yatırımcı", company: "UK Realty Partner", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-with-digital-tablet_1098-651.jpg?_wi=2" },
         { id: "t2", name: "Burak Ç.", role: "Ev Sahibi", company: "UK Realty Partner", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/side-view-woman-posing-outdoors_23-2150322079.jpg" },
         { id: "t3", name: "Deniz K.", role: "Kiracı", company: "UK Realty Partner", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/male-real-estate-agent-doing-business-showing-house-potential-buying-couple_23-2150164666.jpg" },
         { id: "t4", name: "Fırat O.", role: "Yatırımcı", company: "UK Realty Partner", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-middle-aged-hispanic-cheerful-female-with-curly-hair_181624-53321.jpg" },
