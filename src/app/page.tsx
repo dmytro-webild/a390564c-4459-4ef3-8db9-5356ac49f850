@@ -2,16 +2,16 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FeatureCardTwentyFive from '@/components/sections/feature/FeatureCardTwentyFive';
-import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
-import { Camera, Scale, TrendingUp } from "lucide-react";
+import { Camera, Scale, TrendingUp, Instagram, Linkedin, Facebook } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -136,38 +136,22 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplitForm
+      <ContactSplit
+      tag="İletişim"
+      title="Bizimle Bağlantı Kurun"
+      description="Gayrimenkul hedeflerinize ulaşmanıza yardımcı olalım. Profesyonel ekibimize ulaşmak için aşağıdaki formu doldurabilir veya sosyal medya üzerinden bize mesaj atabilirsiniz."
       useInvertedBackground={true}
-      title="Bize Ulaşın"
-      description="Profesyonel ekibimiz size destek olmak için hazır."
-      inputs={[
-        { name: "name", type: "text", placeholder: "Ad Soyad" },
-        { name: "email", type: "email", placeholder: "E-posta" },
-        { name: "phone", type: "tel", placeholder: "Telefon" },
-      ]}
-      textarea={{ name: "message", placeholder: "Mesajınız" }}
       imageSrc="http://img.b2bpic.net/free-photo/beautiful-cityscape-with-silhouettes-street-lamp-buildings-sunset_181624-43829.jpg"
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/new-york-city-manhattan-skyline-aerial-panorama_649448-1452.jpg"
+      <FooterCard
       logoText="UK Realty"
-      columns={[
-        {
-          title: "UK Realty",          items: [
-            { label: "Anasayfa", href: "#hero" },
-            { label: "Portföy", href: "#portfolio" },
-            { label: "İletişim", href: "#contact" },
-          ],
-        },
-        {
-          title: "İletişim",          items: [
-            { label: "+90 536 919 58 96", href: "tel:+905369195896" },
-            { label: "@ukrealtyofficial", href: "https://instagram.com/ukrealtyofficial" },
-          ],
-        },
+      socialLinks={[
+        { icon: Instagram, href: "https://instagram.com/ukrealtyofficial", ariaLabel: "Instagram" },
+        { icon: Linkedin, href: "#", ariaLabel: "LinkedIn" },
+        { icon: Facebook, href: "#", ariaLabel: "Facebook" }
       ]}
     />
   </div>
